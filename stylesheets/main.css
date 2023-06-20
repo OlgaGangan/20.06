@@ -1,250 +1,145 @@
-body {
+
+  body {
     margin: 0 auto;
     padding: 0;
-
-    width: 100vw;
-    overflow-x: hidden;
-    background:#D1D3D2;
+    height: 100%;
+    font-family: "Lack";
+    background: #000A23;
+    ;
   }
-.block1-animation {
-  position: relative;
-  width: 230px;
-  height: 230px;
-  left: 874px;
-  top: 442px;
-  background-color: #191820;
-  transition: background-color .1s linear;
-  }
-
-  .block1-animation:hover {
-        background-color: #C74827;
-  }
-
-.block2-animation {
-  position: relative;
-  width: 230px;
-  height: 230px;
-  left: 1128px;
-  top: 212px;
-  background-color: #C74827;
-  transition: background-color .1s linear;
-  }
-
-  .block2-animation:hover {
-      background-color: #191820;
-  }
-  .block21-animation {
+  .menuitems  {
     position: relative;
-    width: 230px;
-    height: 230px;
-    left: 623px;
-    top: -18px;
-    background-color: #C74827;
-    transition: background-color .1s linear;
-    }
+    display: flex;
+    justify-content: space-between;
+    margin-left: 210px;
+    margin-right: 40px;
+    height: 50px;
+    margin-top: 20px;
 
-    .block21-animation:hover {
-        background-color: #191820;
-    }
+  }
+  .menu {
+    font-family: 'Lack';
+    font-style: normal;
+    font-size: 30px;
+    line-height: 30px;
+    color: white;
+    border: 1px solid white; 
+    padding-top: 52px;
+    padding-left: 50px;
+    padding-right: 50px;
+  } 
+  .menu:hover {
+    position: relative;
+    opacity: 1;
+    transform: scale(1.2);
+    color: #FF5858;
+}
+  p {
+    margin: -40px 0 0 auto;
+    
+  }
 
-
-  .block3-animation {
+  .icon {
     position: absolute;
-      width: 1300px;
-      height: 30px;
-      left: -42px;
-      top: 289px;
-      background-color: #CF5138;;
-      transition: width 1s cubic-bezier(0, 0, 1, 1) 500ms;
-      transform: rotate(161deg);
+    width: 129px;
+    height: 63px;
+    left: -177px;
+    top: -6px;
   }
 
-  .block3-animation:hover {
-    width: 1700px;
-  }
-
-  .block4-animation {
-
+  .text1 {
     position: absolute;
-    width: 13.78px;
-    height: 935.53px;
-    left: 143px;
-    top: 280px;
+    width: 283px;
+    height: 282px;
+    left: 30px;
+    top: 160px;
+    font-family: 'Lack';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 38px;
 
+    color: #FFFFFF;
   }
-
-  .block5-animation {
+  .ba {
     position: absolute;
-      width: 130px;
-      height: 20px;
-      left: 577.15px;
-      top: 268px;
-      background-color: #CF5138;;
-      transition: width 1s cubic-bezier(0, 0, 1, 1) 500ms;
-      transform: rotate(261deg);
+    left: 638px;
+    top: 127px;
   }
-  @keyframes appear {
-  	0%{
-  		opacity: .8;
-  		transform: scale(.5, .5);
-  	}
-  	70%{
-  		opacity: .3;
-  		transform: scale(1, 1);
-  	}
-  	100%{
-  		opacity: 0;
-  		transform: scale(.5, .5);
-  	}
-  }
-  .cursor {
-  	position: fixed;
-  	width: 40px;
-  	height: 40px;
-  	margin: -20px 0 0 -20px;
-  	border-radius: 50%;
-  	background: #ef2c68;
-  	animation: appear .2s;
-  	-webkit-animation: appear .2s;
-  }
-  .circle {
+.de {
     position: absolute;
-    width: 482px;
-    height: 482px;
-    left: 953px;
-    top: -186px;
-    border-radius: 50%;
-    background: #191820;
-    animation: pulsing 5s infinite;
-  }
+    left: 1060px;
+    top: 108px;
+}
 
-  @keyframes pulsing {
-    0% {
-      transform: scale(0.5, 0.5)
-    }
-    50% {
-      transform: scale(1.0, 1.0);
-    }
-    100% {
-      transform: scale(0.5, 0.5);
-    }
-  }
-
-  .circle1 {
+.ba1 {
     position: absolute;
-    width: 200px;
-    height: 200px;
-    left: 1095px;
-    top: -50px;
-    border-radius: 50%;
-    background: #015E6B;
-  }
-  .circle1:hover {
-    opacity: 0%;
-  }
-  .circle1 {
+    left: 638px;
+    top: 127px;  
+}
+
+.ba1 {
+    opacity: 0;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+ }
+ .ba1:hover {
   opacity: 100%;
-  transition-property: opacity;
-  transition-duration: 1s;
-  transition-timing-function: ease-out;
-
-  }
-  .block6 {
+}
+.de1 {
     position: absolute;
-  width: 448px;
-  height: 448px;
-  left: -1px;
-  top: -220px;
-}
-.block6:hover {
-  opacity: 0%;
-}
-.block6 {
-opacity: 100%;
-transition-property: opacity;
-transition-duration: 1s;
-transition-timing-function: ease-out;
-
-}
-.block71 {
-  position: absolute;
-  width: 69px;
-  height: 114px;
-  top: 6px;
-  left: 185.5px;
+    left: 1060px;
+    top: 108px;
 }
 
-.block7 {
+.de1 {
+    opacity: 0%;
+    transition-property: opacity;
+    transition-duration: 1s;
+    transition-timing-function: ease-out;
+ }
+ .de1:hover {
+    opacity: 100%;
+  }
+  .palka {
   position: absolute;
-  width: 69px;
-  height: 114px;
-  top: 6px;
-  left: 185.5px;
-  animation-name: block7;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate-reverse;
+  left: 1313px;
+  top: 430px;
+  }
+  /* .rotate {
+    transform: rotate(360deg);
+    transition: transform 1s ease-in-out;
+  } */
 
-}
-@keyframes block7 {
-  from {opacity: 0%;}
-  to {opacity: 100%;}
-}
-.block8 {
-  position: absolute;
-  width: 69px;
-  height: 114px;
-  top: 41px;
-  left: 185.5px;
-}
-.block91 {
-  position: absolute;
-  width: 69px;
-  height: 114px;
-  top: 175px;
-  left: 185.5px;
-}
+  .kust {
+    position: absolute;
+    top: 259px;
+    left: -16px;
+    animation: move_kust 2s ease-in-out infinite;
+  }
+  
+  @keyframes move_kust {
+    0% { transform: translateX(0); }
+    50% { transform: translateX(200px); }
+    100% { transform: translateX(0); }
+  }
+  .bv {
+    position: absolute;
+    left: 40px;
+    top: 511px;
+  }
 
-.block9 {
-  position: absolute;
-  width: 69px;
-  height: 114px;
-  top: 175px;
-  left: 185.5px;
-  animation-name: block9;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate-reverse;
-
-}
-@keyframes block9 {
-  from {opacity: 0%;}
-  to {opacity: 100%;}
-}
-.block101 {
-  position: absolute;
-  width: 69px;
-  height: 114px;
-  top: 258px;
-  left: 116.5px;
-}
-
-.block10 {
-  position: absolute;
-  width: 69px;
-  height: 114px;
-  top: 258px;
-  left: 116.5px;
-  animation-name: block10;
-  animation-duration: 2s;
-  animation-iteration-count: infinite;
-  animation-timing-function: ease-in-out;
-  animation-direction: alternate-reverse;
-
-}
-@keyframes block10 {
-  from {opacity: 0%;}
-  to {opacity: 100%;}
-}
+  .text2 {
+    position: absolute;
+    width: 283px;
+    height: 282px;
+    left: 30px;
+    top: 257px;
+    font-family: 'Lack';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    color: white;
+  }

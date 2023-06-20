@@ -1,0 +1,250 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+
+    width: 100vw;
+    overflow-x: hidden;
+    background:#D1D3D2;
+  }
+.block1-animation {
+  position: relative;
+  width: 230px;
+  height: 230px;
+  left: 874px;
+  top: 442px;
+  background-color: #191820;
+  transition: background-color .1s linear;
+  }
+
+  .block1-animation:hover {
+        background-color: #C74827;
+  }
+
+.block2-animation {
+  position: relative;
+  width: 230px;
+  height: 230px;
+  left: 1128px;
+  top: 212px;
+  background-color: #C74827;
+  transition: background-color .1s linear;
+  }
+
+  .block2-animation:hover {
+      background-color: #191820;
+  }
+  .block21-animation {
+    position: relative;
+    width: 230px;
+    height: 230px;
+    left: 623px;
+    top: -18px;
+    background-color: #C74827;
+    transition: background-color .1s linear;
+    }
+
+    .block21-animation:hover {
+        background-color: #191820;
+    }
+
+
+  .block3-animation {
+    position: absolute;
+      width: 1300px;
+      height: 30px;
+      left: -42px;
+      top: 289px;
+      background-color: #CF5138;;
+      transition: width 1s cubic-bezier(0, 0, 1, 1) 500ms;
+      transform: rotate(161deg);
+  }
+
+  .block3-animation:hover {
+    width: 1700px;
+  }
+
+  .block4-animation {
+
+    position: absolute;
+    width: 13.78px;
+    height: 935.53px;
+    left: 143px;
+    top: 280px;
+
+  }
+
+  .block5-animation {
+    position: absolute;
+      width: 130px;
+      height: 20px;
+      left: 577.15px;
+      top: 268px;
+      background-color: #CF5138;;
+      transition: width 1s cubic-bezier(0, 0, 1, 1) 500ms;
+      transform: rotate(261deg);
+  }
+  @keyframes appear {
+  	0%{
+  		opacity: .8;
+  		transform: scale(.5, .5);
+  	}
+  	70%{
+  		opacity: .3;
+  		transform: scale(1, 1);
+  	}
+  	100%{
+  		opacity: 0;
+  		transform: scale(.5, .5);
+  	}
+  }
+  .cursor {
+  	position: fixed;
+  	width: 40px;
+  	height: 40px;
+  	margin: -20px 0 0 -20px;
+  	border-radius: 50%;
+  	background: #ef2c68;
+  	animation: appear .2s;
+  	-webkit-animation: appear .2s;
+  }
+  .circle {
+    position: absolute;
+    width: 482px;
+    height: 482px;
+    left: 953px;
+    top: -186px;
+    border-radius: 50%;
+    background: #191820;
+    animation: pulsing 5s infinite;
+  }
+
+  @keyframes pulsing {
+    0% {
+      transform: scale(0.5, 0.5)
+    }
+    50% {
+      transform: scale(1.0, 1.0);
+    }
+    100% {
+      transform: scale(0.5, 0.5);
+    }
+  }
+
+  .circle1 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    left: 1095px;
+    top: -50px;
+    border-radius: 50%;
+    background: #015E6B;
+  }
+  .circle1:hover {
+    opacity: 0%;
+  }
+  .circle1 {
+  opacity: 100%;
+  transition-property: opacity;
+  transition-duration: 1s;
+  transition-timing-function: ease-out;
+
+  }
+  .block6 {
+    position: absolute;
+  width: 448px;
+  height: 448px;
+  left: -1px;
+  top: -220px;
+}
+.block6:hover {
+  opacity: 0%;
+}
+.block6 {
+opacity: 100%;
+transition-property: opacity;
+transition-duration: 1s;
+transition-timing-function: ease-out;
+
+}
+.block71 {
+  position: absolute;
+  width: 69px;
+  height: 114px;
+  top: 6px;
+  left: 185.5px;
+}
+
+.block7 {
+  position: absolute;
+  width: 69px;
+  height: 114px;
+  top: 6px;
+  left: 185.5px;
+  animation-name: block7;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+
+}
+@keyframes block7 {
+  from {opacity: 0%;}
+  to {opacity: 100%;}
+}
+.block8 {
+  position: absolute;
+  width: 69px;
+  height: 114px;
+  top: 41px;
+  left: 185.5px;
+}
+.block91 {
+  position: absolute;
+  width: 69px;
+  height: 114px;
+  top: 175px;
+  left: 185.5px;
+}
+
+.block9 {
+  position: absolute;
+  width: 69px;
+  height: 114px;
+  top: 175px;
+  left: 185.5px;
+  animation-name: block9;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+
+}
+@keyframes block9 {
+  from {opacity: 0%;}
+  to {opacity: 100%;}
+}
+.block101 {
+  position: absolute;
+  width: 69px;
+  height: 114px;
+  top: 258px;
+  left: 116.5px;
+}
+
+.block10 {
+  position: absolute;
+  width: 69px;
+  height: 114px;
+  top: 258px;
+  left: 116.5px;
+  animation-name: block10;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+  animation-direction: alternate-reverse;
+
+}
+@keyframes block10 {
+  from {opacity: 0%;}
+  to {opacity: 100%;}
+}

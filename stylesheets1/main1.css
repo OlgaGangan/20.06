@@ -1,0 +1,183 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    font-family: "Lack";
+    background: #000A23;
+    ;
+  }
+  .icon {
+    position: absolute;
+    width: 129px;
+    height: 63px;
+    left: 33px;
+    top: 14px;
+  }
+.menuitems  {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 830px;
+    margin-right: 33px;
+    height: 62px;
+    margin-top: 14px;
+  }
+
+  .menu {
+    font-family: 'Lack';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    border: 1px solid white; 
+    padding-top: 35px;
+    padding-left: 17px;
+    padding-right: 17px;
+  } 
+  .menu:hover {
+    position: relative;
+    opacity: 1;
+    transform: scale(1.2);
+    color: #FF5858;
+}
+  p {
+    margin: -28px 0 0 auto;
+    
+  }
+
+  input[type=text]{
+    margin-top: 3px;
+    }
+    .type-1 {
+    border:2px solid #000A23;
+    padding:15px 20px 15px 20px;
+    font-size: 16px;
+    color: #000A23;
+    background-color: #ffffff;
+    font-family: Lack;
+    }
+    .type-2, .type-3 {
+      border:2px solid #000A23;
+      padding:15px 281px 15px 20px;
+      font-size: 16px;
+      color: #000A23;
+      background-color: #ffffff;
+      font-family: Lack;
+      }
+    input::-webkit-input-placeholder{color:#000A23;}
+    .imya p, .mail p, .tel p{
+    font-family: Lack;
+    font-size: 17px;
+    color: #000A23;
+    margin-bottom: 6px;
+    }
+    .type-1:hover, .type-2:hover, .type-3:hover{
+    border:1px solid #000A23;
+    }
+    .mail, .tel{
+    margin-top: 56px;;
+    }
+
+    .otvet {
+      font-family: Lack;
+      position: absolute;
+      font-size: 16px;
+      padding: 34px 20px 3px 20px;
+      top: 265px;
+      left: 121px;
+      color: #ffffff;
+      background-color: #000A23;
+      margin-left: 40px;
+      margin-top: 30px;
+      }
+
+      .da {
+        position: relative;
+        top: 104px;
+        margin-left: 104px;
+      }
+      .kub {
+        position: absolute;
+        left: 74px;
+        top: 133px;
+      }
+
+.stol {
+  position: absolute;
+width: 464px;
+height: 330px;
+left: 529px;
+top: 334px;
+}
+
+
+/* kapla1anim */
+.kapla1 {
+  left: 335px;
+  top: 147px; 
+  position: absolute;
+  animation-name: kapla1;
+  animation-duration: 1.8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+
+}
+
+@keyframes kapla1 {
+  0% {left:335px; top:147px; opacity: 0%;}
+  25% {left:335px; top:180px; opacity: 90%;}
+  50% {left:335px; top:220px; opacity: 100%;}
+  75% {left:335px; top:270px; opacity: 90%;}
+  100% {left:335px; top:309px;opacity: 0%}
+}
+
+/* kapla2anim */
+.kapla2 {
+  left: 313px;
+  top: 133px;
+  position: absolute;
+  animation-name: kapla2;
+  animation-duration: 1.8s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-delay: 1s;
+}
+
+@keyframes kapla2 {
+  0% {left:313px; top:133px; opacity: 0%;}
+  25% {left:313px; top:160px; opacity: 90%;}
+  50% {left:313px; top:200px; opacity: 100%;}
+  75% {left:313px; top:250px; opacity: 90%;}
+  100% {left:313px; top:309px;opacity: 0%}
+}
+
+.strelka {
+  position: absolute;
+  width: 359.39px;
+  height: 400px;
+  left: 903px;
+  top: -476px;
+  animation: move 2s infinite;
+  animation-duration: 4.9s;
+  animation-timing-function: linear;
+}
+
+@keyframes move {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(17deg);
+  }
+  50% {
+    transform: rotate(0deg);
+  }
+  75% {
+    transform: rotate(-20deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
+  
+}
+

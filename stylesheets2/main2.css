@@ -1,0 +1,321 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    height: 100%;
+    font-family: "Lack";
+    background: #000A23;
+    ;
+  }
+  .icon {
+    position: absolute;
+    width: 129px;
+    height: 63px;
+    left: 33px;
+    top: 14px;
+  }
+.menuitems  {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 830px;
+    margin-right: 33px;
+    height: 62px;
+    margin-top: 14px;
+  }
+
+  .menu {
+    font-family: 'Lack';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 16px;
+    color: white;
+    border: 1px solid white; 
+    padding-top: 35px;
+    padding-left: 17px;
+    padding-right: 17px;
+    background-color: #000A23;
+  } 
+  .menu:hover {
+    position: relative;
+    opacity: 1;
+    transform: scale(1.2);
+    color: #FF5858;
+}
+  p {
+    margin: -28px 0 0 auto;
+    
+  }
+
+ .kniga {
+  position: absolute;
+  width: 584px;
+  height: 1245px;
+  left: 753px;
+  top: -47px;
+}
+ .but {
+  position: absolute;
+  width: 170px;
+  height: 198px;
+  left: 272px;
+  top: -3px;
+}
+
+.alco {
+  position: absolute;
+  width:281.96px;
+  height: 482.42px;
+  top: 312px;
+  left: 183px;
+}
+
+.alco1 {
+  position: absolute;
+  width:281.96px;
+  height: 482.42px;
+  top: 312px;
+  left: 183px;
+}
+.button {
+  position: absolute;
+  width: 283px;
+  height: 29px;
+  left: 892px;
+  top: 104px;
+
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000A23;
+  transform: rotate(9.8deg);
+  background: transparent;
+  border: none;
+}
+.sostav1 {
+  position: absolute;
+  width: 308px;
+  height: 19px;
+  left: 934px;
+  top: 178px;
+
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+
+  color: #000A23;
+
+  transform: rotate(10.9deg)
+}
+/* второй */
+.alco2 {
+  position: absolute;
+  width:281.96px;
+  height: 482.42px;
+  top: 312px;
+  left: 183px;
+}
+.button2 {
+  position: absolute;
+  width: 263px;
+  left: 899px;
+  top: 188px;
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000A23;
+  transform: rotate(12deg);
+  background: transparent;
+  border: none;
+}
+.sostav2 {
+  position: absolute;
+  width: 277px;
+  height: 19px;
+  left: 919px;
+  top: 264px;
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000A23;
+  transform: rotate(12deg);
+}
+/* третий */
+.alco3 {
+  position: absolute;
+  width:281.96px;
+  height: 482.42px;
+  top: 312px;
+  left: 183px;
+}
+.button3 {
+  position: absolute;
+  width: 148px;
+  left: 914px;
+  top: 272px;
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000A23;
+  transform: rotate(13deg);
+  background: transparent;
+  border: none;
+}
+.sostav3 {
+  position: absolute;
+  width: 277px;
+  height: 19px;
+  left: 907px;
+  top: 355px;
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000A23;
+  transform: rotate(14deg);
+}
+/* четвертый */
+.alco4 {
+  position: absolute;
+  width:281.96px;
+  height: 482.42px;
+  top: 312px;
+  left: 183px;
+}
+.button4 {
+  position: absolute;
+  width: 298px;
+  left: 874px;
+  top: 389px;
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000A23;
+  transform: rotate(15deg);
+  background: transparent;
+  border: none;
+}
+.sostav4 {
+  position: absolute;
+  width: 359px;
+  height: 19px;
+  left: 869px;
+  top: 469px;
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000A23;
+  transform: rotate(16deg);
+}
+/* пятый */
+.alco5 {
+  position: absolute;
+  width:281.96px;
+  height: 482.42px;
+  top: 312px;
+  left: 183px;
+}
+.button5 {
+  position: absolute;
+  width: 298px;
+  left: 834px;
+  top: 480px;
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000A23;
+  transform: rotate(18deg);
+  background: transparent;
+  border: none;
+}
+.sostav5 {
+  position: absolute;
+  width: 359px;
+  height: 19px;
+  left: 833px;
+  top: 565px;
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 19px;
+  color: #000A23;
+  transform: rotate(19deg);
+}
+/* цифры */
+.pp1 {
+  position: absolute;
+  left: 1353px;
+  top: 204px;
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000A23;
+  transform: rotate(11deg);
+}
+.pp2 {
+  position: absolute;
+  left: 1332px;
+  top: 288px;
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000A23;
+  transform: rotate(15deg);
+}
+.pp3 {
+  position: absolute;
+  left: 1301px;
+  top: 381px;
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000A23;
+  transform: rotate(16deg);
+}
+.pp4 {
+  position: absolute;
+  left: 1255px;
+  top: 488px;
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000A23;
+  transform: rotate(17.5deg);
+}
+.pp5 {
+  position: absolute;
+  left: 1206px;
+  top: 592px;
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 29px;
+  color: #000A23;
+  transform: rotate(20deg);
+}

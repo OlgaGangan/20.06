@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets2/style2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <style media="screen"></style>
+    <title>BAR100+</title>
+</head>
+<body>
+    <div class="icon"> <img src="images/icon.svg" alt=""></div>
+    <div class="kniga"> <img src="images/kniga.svg" alt=""></div>
+    <div class="but"> <img src="images/but.svg" alt=""></div>
+    <div class="menuitems">
+        <a href="index.html"><div class="menu"><p>о нас</p></div></a>
+        <a href="zabronirovat.html"><div class="menu"><p>забронировать</p></div></a>
+        <a href="menu.html"><div class="menu"><p>меню</p></div></a>
+        <a href="afisha.html"><div class="menu"><p>афиша</p></div></a>
+        <a href="merch.html"><div class="menu"><p>мерч</p></div></a>
+    </div>
+    <!-- первый коктейль -->
+    <div class="alco"><img src="images/alco.svg" alt=""></div>
+    <div id="alco1" class="alco1" style="display:none"><img src="images/alco1.svg" alt=""> </div>
+    <button class="button" type="submit" onclick="alco1()">Золотые годы</button>
+    
+    <script>
+        function alco1() {
+            let elem = document.getElementById('alco1');
+            let style = getComputedStyle(elem);
+            if (style.display === 'block') {
+                document.getElementById('alco1').style.display='none';
+                } else if (style.display === 'none') {
+                document.getElementById('alco1').style.display='block';
+            }
+         } 
+    </script>
+    <div class="sostav1"><p>самогон, лимонный сок, корица, мед</p></div>
+    <!-- второй коктейль -->
+    <div id="alco2" class="alco2" style="display:none"><img src="images/alco2.svg" alt=""> </div>
+    <button class="button2" type="submit" onclick="alco2()">Скипетр короля</button>
+    
+    <script>
+        function alco2() {
+            let elem = document.getElementById('alco2');
+            let style = getComputedStyle(elem);
+            if (style.display === 'block') {
+                document.getElementById('alco2').style.display='none';
+                } else if (style.display === 'none') {
+                document.getElementById('alco2').style.display='block';
+            }
+         } 
+    </script>
+    <div class="sostav2"><p> коньяк, амаретто, лимонный сок</p></div>
+    <!-- третий коктейль -->
+    <div id="alco3" class="alco3" style="display:none"><img src="images/alco3.svg" alt=""> </div>
+    <button class="button3" type="submit" onclick="alco3()">Ностальгия</button>
+
+    <script>
+        function alco3() {
+            let elem = document.getElementById('alco3');
+            let style = getComputedStyle(elem);
+            if (style.display === 'block') {
+                document.getElementById('alco3').style.display='none';
+                } else if (style.display === 'none') {
+                document.getElementById('alco3').style.display='block';
+            }
+        } 
+    </script>
+    <div class="sostav3"><p> ром, ананасовый сок, кокосовый крем</p></div>
+    <!-- четвертый коктейль -->
+    <div id="alco4" class="alco4" style="display:none"><img src="images/alco4.svg" alt=""> </div>
+    <button class="button4" type="submit" onclick="alco4()">Рассказы о прошлом</button>
+
+    <script>
+        function alco4() {
+            let elem = document.getElementById('alco4');
+            let style = getComputedStyle(elem);
+            if (style.display === 'block') {
+                document.getElementById('alco4').style.display='none';
+                } else if (style.display === 'none') {
+                document.getElementById('alco4').style.display='block';
+            }
+        } 
+    </script>
+    <div class="sostav4"><p>черничный сок, коричневый сахар, виски</p></div>
+    <!-- пятый коктейль -->
+    <div id="alco5" class="alco5" style="display:none"><img src="images/alco5.svg" alt=""> </div>
+    <button class="button5" type="submit" onclick="alco5()">Бодрость и энергия</button>
+
+    <script>
+        function alco5() {
+            let elem = document.getElementById('alco5');
+            let style = getComputedStyle(elem);
+            if (style.display === 'block') {
+                document.getElementById('alco5').style.display='none';
+                } else if (style.display === 'none') {
+                document.getElementById('alco5').style.display='block';
+            }
+        } 
+    </script>
+    <div class="sostav5"><p>водка, лимонный сок, ананасовый сок, базилик </p></div>
+    <!-- цифры -->
+    <div class="pp1"><p>400</p></div>
+    <div class="pp2"><p>450</p></div>
+    <div class="pp3"><p>400</p></div>
+    <div class="pp4"><p>600</p></div>
+    <div class="pp5"><p>600</p></div>
+
+        
+</body>
+</html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheets4/style4.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script type="js/script.js"></script>
+    <style media="screen"></style>
+    <title>BAR100+</title>
+</head>
+<body>
+    <div class="icon"> <img src="images/icon.svg" alt=""></div>
+    <div class="menuitems">
+        <a href="index.html"><div class="menu"><p>о нас</p></div></a>
+        <a href="zabronirovat.html"><div class="menu"><p>забронировать</p></div></a>
+        <a href="menu.html"><div class="menu"><p>меню</p></div></a>
+        <a href="afisha.html"><div class="menu"><p>афиша</p></div></a>
+        <a href="merch.html"><div class="menu"><p>мерч</p></div></a>
+    </div>
+
+      <div class="slideshow-container">
+
+        <div class="mySlides fade">
+          <div class="numbertext">1 / 2</div>
+          <img src="images/slide1.svg" style="width:100%">
+        </div>
+        
+        <div class="mySlides fade">
+          <div class="numbertext">2 / 2</div>
+          <img src="images/slide2.svg" style="width:100%">
+        </div>
+        
+        
+        <a class="prev" onclick="plusSlides(-1)">❮</a>
+        <a class="next" onclick="plusSlides(1)">❯</a>
+        
+        </div>
+        <br>
+        
+        <div style="text-align:center">
+          <span class="dot" onclick="currentSlide(1)"></span> 
+          <span class="dot" onclick="currentSlide(2)"></span> 
+        </div>
+        
+        <script>
+        var slideIndex = 1;
+        showSlides(slideIndex);
+        
+        function plusSlides(n) {
+          showSlides(slideIndex += n);
+        }
+        
+        function currentSlide(n) {
+          showSlides(slideIndex = n);
+        }
+        
+        function showSlides(n) {
+          var i;
+          var slides = document.getElementsByClassName("mySlides");
+          var dots = document.getElementsByClassName("dot");
+          if (n > slides.length) {slideIndex = 1}    
+          if (n < 1) {slideIndex = slides.length}
+          for (i = 0; i < slides.length; i++) {
+              slides[i].style.display = "none";  
+          }
+          for (i = 0; i < dots.length; i++) {
+              dots[i].className = dots[i].className.replace(" active", "");
+          }
+          slides[slideIndex-1].style.display = "block";  
+          dots[slideIndex-1].className += " active";
+        }
+        </script>
+
+<div class="da">
+    <div class="forms">
+        <div class="imya">
+            <p>Оформить заказ</p>
+            <input type="text" class="type-1" maxlength="20" placeholder ="Имя" />
+            <input type="text" class="type-1" maxlength="20" placeholder ="Фамилия" />
+            <input type="text" class="type-1" maxlength="11" placeholder ="+7(999)999-99-99" />
+        </div>
+</div>
+        
+
+
+</body>
+</html>

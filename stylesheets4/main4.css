@@ -154,3 +154,53 @@ body {
       border:1px solid white;
       }
       
+    .not {
+    position: relative;
+    width: 120px;
+    font-family: Lack;
+    font-size: 30px;
+    color: #ffffff;
+    margin-bottom: 6px;
+    left: 851px;
+    top: -17px;
+    } 
+    .stop {
+      position: relative;
+      color: #FF5858;
+      font-size: 250px;
+      font-family: Lack;
+      text-align: center; 
+      top: 118px;
+     
+    }
+    .stop2 {
+      position: relative;
+      color: #FFF;
+      font-size: 30px;
+      font-family: Lack;
+      text-align: center; 
+      top: 140px;
+     
+    }
+    .stop3 {
+      position: relative;
+      color: #FFF;
+      font-size: 20px;
+      font-family: Lack;
+      text-align: center; 
+      top: 177px;
+     
+    }
+    .g {
+      position: relative;
+      top: 135px;
+      left: 1004px;
+      width: 20px;
+    }
+    .gg {
+      position: relative;
+      top: -242px;
+      left: -1px;
+      width: 20px;
+  }
+    

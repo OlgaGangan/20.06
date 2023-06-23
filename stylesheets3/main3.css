@@ -42,5 +42,144 @@ body {
 }
   p {
     margin: -28px 0 0 auto;
-    
   }
+.karta1{
+  position: absolute;
+  top: 181px;
+  width: 100%;
+  text-align: center; 
+}
+.karta2{
+  position: absolute;
+  top: 1243px;
+  width: 100%;
+  text-align: center;
+}
+.karta3{
+  position: absolute;
+  top: 2372px;
+  width: 100%;
+  text-align: center;
+}
+.karta4{
+  position: absolute;
+  top: 3453px;
+  width: 100%;
+  text-align: center;
+}
+/* первый клик */
+.button1 {
+  position: absolute; 
+  width: 298px;
+  top: 839px;
+  left: 20px;
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 29px;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+}
+.tap1 {
+  position: absolute;
+  text-align: center; 
+  top: 180px;
+}
+/* второй клик */
+.button2 {
+  position: absolute;
+  width: 298px;
+  top: 1325px;
+  left: 20px;
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 29px;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+
+}
+.tap2 {
+  position: absolute;
+  text-align: center; 
+  top: 1242px;
+}
+/* третий клик */
+.button3 {
+  position: absolute;
+  width: 298px;
+  top: 2429px;
+  left: 20px;
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 29px;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+
+}
+.tap3 {
+  position: absolute;
+  text-align: center; 
+  top: 2373px;
+}
+/* четвертый */
+.button4 {
+  position: absolute;
+  width: 298px;
+  top: 3503px;
+  left: 20px;
+  font-family: 'Lack';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 64px;
+  line-height: 29px;
+  color: #ffffff;
+  background: transparent;
+  border: none;
+
+}
+.tap4 {
+  position: absolute;
+  text-align: center; 
+  top: 3453px;
+}
+
+.textt1 {
+position: absolute;
+color: #FFF;
+font-size: 24px;
+font-family: Lack;
+top: 168px;
+left: 20px;
+}
+.textt2 {
+  position: absolute;
+  color: #FFF;
+  font-size: 24px;
+  font-family: Lack;
+  top: 1230px;
+  left: 20px;
+  }
+.textt3 {
+  position: absolute;
+  color: #FFF;
+  font-size: 24px;
+  font-family: Lack;
+  top: 2359px;
+  left: 20px;
+ }
+ .textt4 {
+  position: absolute;
+  color: #FFF;
+  font-size: 24px;
+  font-family: Lack;
+  top: 3440px;
+  left: 20px;
+ }

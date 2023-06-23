@@ -20,6 +20,81 @@
         <a href="afisha.html"><div class="menu"><p>афиша</p></div></a>
         <a href="merch.html"><div class="menu"><p>мерч</p></div></a>
     </div>
-    
-</body>
+     
+    <div class="karta1"><img src="images/karta1.svg" alt=""></div>
+ 
+    <!-- <div class="karta3"><img src="images/karta3.svg" alt=""></div>
+    <div class="karta4"><img src="images/karta4.svg" alt=""></div> -->
+
+     <div id="tap1" class="tap1" style="display:none"><img src="images/tap1.svg" alt=""> </div>
+    <button class="button1" type="submit" onclick="tap1()">tap</button>
+
+    <script>
+        function tap1() {
+            let elem = document.getElementById('tap1');
+            let style = getComputedStyle(elem);
+            if (style.display === 'block') {
+                document.getElementById('tap1').style.display='none';
+                } else if (style.display === 'none') {
+                document.getElementById('tap1').style.display='block';
+            }
+        } 
+    </script>
+    <!-- второй -->
+   <div class="karta2"><img src="images/karta2.svg" alt=""></div>
+
+   <div id="tap2" class="tap2" style="display:none"><img src="images/tap2.svg" alt=""> </div>
+   <button class="button2" type="submit" onclick="tap2()">tap</button>
+
+   <script>
+       function tap2() {
+           let elem = document.getElementById('tap2');
+           let style = getComputedStyle(elem);
+           if (style.display === 'block') {
+               document.getElementById('tap2').style.display='none';
+               } else if (style.display === 'none') {
+               document.getElementById('tap2').style.display='block';
+           }
+       } 
+   </script>
+   <!-- третий -->
+   <div class="karta3"><img src="images/karta3.svg" alt=""></div>
+
+   <div id="tap3" class="tap3" style="display:none"><img src="images/tap3.svg" alt=""> </div>
+   <button class="button3" type="submit" onclick="tap3()">tap</button>
+
+   <script>
+       function tap3() {
+           let elem = document.getElementById('tap3');
+           let style = getComputedStyle(elem);
+           if (style.display === 'block') {
+               document.getElementById('tap3').style.display='none';
+               } else if (style.display === 'none') {
+               document.getElementById('tap3').style.display='block';
+           }
+       } 
+   </script>
+<!-- четвертый -->
+<div class="karta4"><img src="images/karta4.svg" alt=""></div>
+
+<div id="tap4" class="tap4" style="display:none"><img src="images/tap4.svg" alt=""> </div>
+<button class="button4" type="submit" onclick="tap4()">tap</button>
+
+<script>
+    function tap4() {
+        let elem = document.getElementById('tap4');
+        let style = getComputedStyle(elem);
+        if (style.display === 'block') {
+            document.getElementById('tap4').style.display='none';
+            } else if (style.display === 'none') {
+            document.getElementById('tap4').style.display='block';
+        }
+    } 
+</script>
+
+<!-- подписи -->
+<div class="textt1"><p>Центральный зал</p></div>
+<div class="textt2"><p>Музыкальная сцена</p></div>
+<div class="textt3"><p>Барная стойка</p></div>
+<div class="textt4"><p>Комната для настольных игр</p></div>
 </html>
